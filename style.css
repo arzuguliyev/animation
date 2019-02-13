@@ -1,0 +1,811 @@
+.main
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main > div
+{   
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+
+#first
+{
+   position: relative;
+   animation-name: first-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+
+#second
+{
+   position: relative;
+   animation-name: second-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+
+#third
+{
+   position: relative;
+   animation-name: third-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+#fourth
+{
+   position: relative;
+   animation-name: fourth-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+
+#fivth
+{
+   position: relative;
+   animation-name: fivth-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+
+#sixth
+{
+   position: relative;
+   animation-name: sixth-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+#seventh
+{
+   position: relative;
+   animation-name: seventh-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+#eth
+{
+   position: relative;
+   animation-name: eth-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+
+#ninth
+{
+   position: relative;
+   animation-name: ninth-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+
+#tenth
+{
+   position: relative;
+   animation-name: tenth-animation;
+   animation-direction: alternate;
+   animation-duration: 10s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+}
+
+@keyframes first-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 354px;
+        left: 208px
+    }
+
+    18%
+    {
+        top: 354px;
+        left: 208px
+    }
+
+    27%{
+        top: 354px;
+        left: 208px;
+    }
+
+    36%{
+        top: 354px;
+        left: 216px;
+    }
+
+    45%{ 
+        top: 354px;
+        left: 216px;
+       }
+
+    54%{
+        top: 354px;
+        left: 216px;
+    }
+
+    63%{
+        top: 354px;
+        left: 216px;
+    }
+
+    72%{
+        top: 354px;
+        left: 216px;
+    }
+
+    81%{
+        top: 354px;
+        left: 216px;
+    }
+    90%{
+        top: 354px;
+        left: 216px;
+      }
+
+      100%
+      {
+        top: 354px;
+        left: 216px;
+      }
+
+}
+
+
+@keyframes second-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 288px;
+        left: 142px;
+    }
+
+    18%
+    {
+        top: 288px;
+        left: 142px;
+    }
+
+    27%{
+        top: 288px;
+        left: 168px;
+    }
+
+    36%{
+        top: 288px;
+        left: 150px;
+    }
+
+    45%{
+         top: 288px;
+         left: 150px;
+    }
+
+    54%{
+        top: 288px;
+        left: 150px;
+    }
+
+    63%{
+        top: 288px;
+        left: 150px;
+    }
+
+    72%{
+        top: 288px;
+        left: 150px;
+    }
+
+    81%{
+        top: 288px;
+        left: 150px;
+    }
+    90%{
+        top: 288px;
+        left: 150px
+    }
+
+    100%
+    {   
+        top: 288px;
+        left: 113px;
+    }
+
+}
+
+
+
+
+@keyframes third-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 222px;
+        left: 82px;;
+    }
+
+    18%
+    {
+        top: 222px;
+        /* margin-left: 101px; */
+        left: 77px;
+    }
+
+    27%{
+
+        top: 165px;
+        /* margin-left: 101px; */
+        left: -15px
+    }
+
+    36%{
+        top: 155px;
+    /* margin-left: 101px; */
+        left: 86px;
+    }
+
+    45%{
+        top: 155px;
+        /* margin-left: 101px; */
+        left: 134px;
+    }
+
+    54%{
+        top: 155px;
+        /* margin-left: 101px; */
+            left: 86px;
+    }
+
+    63%{
+        top: 155px;
+        /* margin-left: 101px; */
+        left: 86px;
+       }
+
+    72%{
+        top: 155px;
+        /* margin-left: 101px; */
+        left: 86px;
+    }
+
+    81%{
+        top: 155px;
+    /* margin-left: 101px; */
+        left: 86px;
+    }
+     
+     90%{
+        top: 155px;
+    /* margin-left: 101px; */
+        left: 86px;
+    }
+
+    100%
+    {
+        top: 155px;
+        /* margin-left: 101px; */
+        left: -26px;
+    }
+}
+
+
+@keyframes fourth-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 159px;
+        left: 34px;
+    }
+
+    18%
+    {
+        top: 159px;
+        left: 13px;
+    }
+
+    27%{
+        top: 165px;
+        left: -14px;
+    }
+
+    36%{
+        left: 205px;
+        top: 221px;
+       }
+
+    45%{
+        left: 204px;
+        top: 214px;
+    }
+
+    54%{
+        left: 205px;
+        top: 221px;
+    }
+
+    63%{
+        left: 0;
+        top: 0;
+    }
+
+    72%{
+        top: 61px;
+        left: 24px;
+    }
+
+    81%{
+        top: 111px;
+        left: -24px;
+    }
+    90%{
+        left: 163px;
+        top: 252px;
+    }
+
+    100%
+    {
+        left: 720px;
+        top: 0px;
+    }
+
+}
+
+
+
+@keyframes fivth-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 100px;
+    }
+
+    18%
+    {
+        top: 132px;
+        left: 5px;
+    }
+
+    27%{
+        top: 165px;
+        left: -13px;
+
+    }
+
+    36%{
+        top: 288px;
+        left: 143px;
+       }
+
+    45%{
+        top: 288px;
+        left: 143px;
+    }
+
+    54%{
+        top: 288px;
+        left: 143px;
+    }
+
+    63%{
+        top: 0;
+        left: 255px;
+      }
+
+    72%{
+        top: 0;
+       left: 255px;
+    }
+
+    81%{
+        top: -13px;
+        left: -101px;
+     }
+    90%{
+        top: 354px;
+        left: 103px;
+    }
+
+    100%
+    { 
+        top: 0;
+        left: 655px;
+        
+    }
+}
+
+
+
+@keyframes sixth-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 159px;
+        left: -27px;
+    }
+
+    18%
+    {
+        top: 159px;
+        left: -2px;
+    }
+
+    27%{
+        top: 165px;
+        left: -12px;
+    }
+
+    36%{
+        top: 155px;
+        left: 75px;
+       }
+
+    45%{
+        top: 155px;
+        left: 24px;
+       }
+
+    54%{
+        top: 155px;
+        left: 75px;
+    }
+
+    63%{
+        top: 0;
+        left: 0;
+    }
+
+    72%{
+        top: 0;
+        left: 0;
+    }
+
+    81%{
+        top: -13px;
+       left: -32px;
+    }
+    90%{
+        top: 252px;
+        left: -40px;
+    }
+
+    100%
+    {
+        top: 221px;
+        left: -31px;
+    }
+}
+
+
+@keyframes seventh-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 222px;
+        left: -82px;
+    }
+
+    18%
+    {
+        top: 222px;
+        left: -72px;
+    }
+
+    27%{
+        top: 229px;
+        left: -110px
+       }
+
+    36%{
+        top: 221px;
+        left: -171px;
+      }
+
+    45%{
+        top: 221px;
+        left: -171px
+        }
+
+    54%{
+        top: 221px;
+        left: -171px;
+    }
+
+    63%{
+        top: 221px;
+        left: -171px;
+    }
+
+    72%{
+        top: 221px;
+        left: -171px;
+    }
+
+    81%{
+        top: 221px;
+        left: -171px;
+    }
+    90%{
+        top: 221px;
+        left: -171px;
+    }
+
+    100%
+    {
+        top: 221px;
+        left: -245px;
+    }
+}
+
+
+@keyframes eth-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 288px;
+        left: -142px;
+    }
+
+    18%
+    {
+        top: 298px;
+        left: -142px
+    }
+
+    27%{
+        top: 351px;
+        left: -112px;
+    }
+
+    36%{
+        top: 388px;
+        left: -108px;
+     }
+
+    45%{
+        top: 415px;
+        left: -95px;
+     }
+
+    54%{
+        top: 388px;
+        left: -108px;
+    }
+
+    63%{
+        top: 0;
+        left: 128px;
+    }
+
+    72%{
+        top: 0;
+        left: 128px;
+    }
+
+    81%{
+        top: 49px;
+        left: -288px;
+    }
+    90%{
+        top: 354px;
+        left: -161px;
+    }
+
+    100%
+    {
+        top: 288px;
+        left: -192px;
+    }
+}
+
+@keyframes ninth-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 354px;
+        left: -208px
+    }
+
+    18%
+    {
+        top: 351px;
+        left: -171px;
+    }
+
+    27%{
+        top: 351px;
+        left: -110px;
+        }
+
+    36%{
+        top: 354px;
+        left: -115px;
+       }
+
+    45%{
+        top: 354px;
+        left: -115px;
+       }
+
+    54%{
+        top: 354px;
+        left: -115px;
+    }
+
+    63%{
+        top: 354px;
+        left: -159px;
+       }
+
+    72%{
+        top: 0;
+        left: 63px;
+}
+    
+
+    81%{
+        top: 49px;
+        left: -232px;
+    }
+
+    
+    90%{
+        top: 155px;
+        left: -160px;
+    }
+
+    100%
+    {
+        top: 0;
+        left: 400px;
+    }
+}
+
+@keyframes tenth-animation
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+
+    9%
+    {
+        top: 256px;
+        left: -319px;
+    }
+
+    18%
+    {
+        top: 256px;
+        left: -319px;
+    }
+
+    27%{
+        top: 351px;
+        left: -303px;
+    }
+
+    36%{
+        top: 389px;
+        left: -303px;
+       }
+
+    45%{
+        top: 389px;
+        left: -299px;
+     }
+
+    54%{
+        top: 389px;
+        left: -303px;
+    }
+
+    63%{ 
+        top: 354px;
+        left: -292px; 
+        }
+
+    72%{
+        top: 0px;
+        left: 0px;
+
+    }
+
+    81%{
+        top: 111px;
+        left: -314px;
+    }
+    90%{
+        top: 155px;
+        left: -292px;
+    }
+
+    100%
+    {
+        top: 155px;
+        left: -264px;
+    }
+}
